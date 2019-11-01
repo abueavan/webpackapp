@@ -24,7 +24,7 @@ const Blog = ({
       <h2>{blog.title}</h2>
       <div>
         <a href={blog.url}>{blog.url}</a>
-        <p>{blog.likes}<Button onClick={handleLike}>like</Button></p>
+        <p><span data-cy="like">{blog.likes}</span><Button onClick={handleLike}>like</Button></p>
         <p>added by {blog.user.name}</p>
         {user.username === blog.user.username &&<Button onClick={deleteBlog}>remove</Button> }
       </div>

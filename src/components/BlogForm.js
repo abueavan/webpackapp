@@ -16,6 +16,7 @@ const BlogForm = ({
             type={title.type}
             value={title.value}
             name="Title"
+            data-cy="title"
             onChange={title.onChange}
           />
         </Form.Field>
@@ -25,6 +26,7 @@ const BlogForm = ({
             type={author.type}
             value={author.value}
             name="Author"
+            data-cy="author"
             onChange={author.onChange}
           />
         </Form.Field>
@@ -34,6 +36,7 @@ const BlogForm = ({
             type={url.type}
             value={url.value}
             name="URL"
+            data-cy="url"
             onChange={url.onChange}
           />
         </Form.Field>

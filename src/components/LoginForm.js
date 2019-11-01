@@ -20,7 +20,7 @@ const LoginForm = ({
           <label>password</label>
           <input {...password} />
         </div>
-        <Button type="submit">login</Button>
+        <Button data-cy="submit" type="submit">login</Button>
       </Form>
     </div>
   )

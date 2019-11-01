@@ -209,7 +209,7 @@ function App(props) {
       <Router>
         <div>
           <Menu username={user.name} onlogout={handlelogout} />
-          <h2>blog app</h2>
+          <h2>Blog App</h2>
           {(info &&
             <Message success>
               {info}

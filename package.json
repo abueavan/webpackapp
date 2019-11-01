@@ -5,7 +5,8 @@
   "scripts": {
     "build": "webpack --mode=production",
     "start": "webpack-dev-server --mode=development",
-    "server": "json-server -p3001 db.json"
+    "server": "json-server -p3001 db.json",
+    "cypress:open": "cypress open"
   },
   "liscense": "MIT",
   "devDependencies": {
